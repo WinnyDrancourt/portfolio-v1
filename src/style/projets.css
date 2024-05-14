@@ -1,0 +1,41 @@
+.projets {
+  display: grid;
+  padding: 7% 5% 0 5%;
+  grid-template-columns: 1fr 1fr;
+  gap: 5%;
+  text-align: center;
+  min-width: 300px;
+
+  h3 {
+    font-size: var(--size-title-L);
+    margin-bottom: 20px;
+  }
+}
+
+.projet-image {
+  width: 100%;
+  object-fit: scale-down;
+}
+
+.projet-card {
+  border-radius: 10px;
+  box-shadow: 0 0 10px var(--color-tertiary-05);
+  padding: 0 1rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  background: linear-gradient(
+    45deg,
+    var(--color-tertiary-01),
+    var(--color-tertiary-03)
+  );
+}
+
+.projet-tech {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  margin-top: 20px;
+}
