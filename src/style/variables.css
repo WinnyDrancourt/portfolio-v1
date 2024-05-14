@@ -1,0 +1,68 @@
+:root {
+  /* Colors */
+
+  --color-primary: rgba(224, 221, 213, 1);
+  --color-primary-07: rgba(227, 221, 213, 0.7);
+  --color-primary-04: rgba(224, 221, 213, 0.4);
+
+  --color-secondary: rgba(204, 175, 104, 1);
+  --color-secondary-08: rgba(204, 175, 104, 0.8);
+  --color-secondary-03: rgba(204, 175, 104, 0.3);
+
+  --color-tertiary: rgba(179, 177, 170, 1);
+  --color-tertiary-05: rgba(179, 177, 170, 0.5);
+  --color-tertiary-03: rgba(179, 177, 170, 0.3);
+  --color-tertiary-01: rgba(179, 177, 170, 0.1);
+
+  --color-quaternary: rgba(163, 140, 83, 1);
+
+  --text-color: #2e3546;
+
+  /* Fonts */
+  --font-family-title: "Cinzel", serif;
+  --font-family-text: "Cardo", serif;
+
+  /* Sizes */
+  --size-title-L: 3rem;
+  --size-title-M: 2.5rem;
+  --size-title-S: 2rem;
+  --size-stitle-L: 1.6rem;
+  --size-stitle-M: 1.4rem;
+  --size-stitle-S: 1.2rem;
+  --size-text-L: 1.3rem;
+  --size-text-M: 1.1rem;
+  --size-text-S: 1rem;
+}
+
+[data-theme="dark"] {
+  --color-primary: rgba(14, 17, 41, 1);
+  --color-primary-07: rgba(14, 17, 41, 0.7);
+  --color-primary-04: rgba(14, 17, 41, 0.4);
+
+  --color-secondary: rgba(204, 175, 104, 1);
+  --color-secondary-08: rgba(204, 175, 104, 0.8);
+  --color-secondary-03: rgba(204, 175, 104, 0.3);
+
+  --color-tertiary: rgba(62, 65, 84, 1);
+  --color-tertiary-05: rgba(62, 65, 84, 0.5);
+  --color-tertiary-03: rgba(62, 65, 84, 0.3);
+  --color-tertiary-01: rgba(62, 65, 84, 0.1);
+
+  --color-quaternary: rgba(163, 140, 83, 1);
+
+  --text-color: #e0ddd5;
+}
+
+* {
+  transition: all 0.3s ease-in-out;
+}
+
+@font-face {
+  font-family: "Cinzel";
+  src: url("../assets/fonts/Cinzel-Regular.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "Cardo";
+  src: url("../assets/fonts/Cardo-Regular.ttf") format("truetype");
+}
